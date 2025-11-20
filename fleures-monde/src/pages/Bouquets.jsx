@@ -15,7 +15,7 @@ function Bouquets() {
   useEffect(() => {
     loadBouquets(); // premier chargement
 
-    // 🔄 Pulling toutes les 60 secondes
+    // Pulling toutes les 10 secondes
     const interval = setInterval(() => {
       loadBouquets();
     }, 10000);
